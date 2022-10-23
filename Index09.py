@@ -8,6 +8,6 @@ def main(s):
     """
     if type(int(s)) == int:
         return int(s)
-    elif type(int(s)) == str:
+    elif type(str(s)) == str:
         return -1
 print(main('k'))
