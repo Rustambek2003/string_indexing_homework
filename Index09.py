@@ -6,8 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    if type(int(s)) == int:
-        return int(s)
-    elif type(str(s)) == str:
+    
+    if type(s) == str:
         return -1
-print(main('k'))
+    else:
+        return int(s)
+    
+print(main('7'))
