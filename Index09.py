@@ -7,6 +7,7 @@ def main(s):
         int: answer
     """
     if type(int(s)) == int:
-        return s
+        return int(s)
     else:
         return -1
+print(main('5'))
