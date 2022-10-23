@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: answer
     """
-    return len(set)
+    ans = 0
+    if type(int(s[0])) == int:
+        ans += 1
+    if type(int(s[0])) == int:
+        ans += 1
+    if type(int(s[0])) == int:
+        ans += 1
+    if type(int(s[0])) == int:
+        ans += 1
+    if type(int(s[0])) == int:
+        ans += 1
+    return ans
+print(main("32x3z"))
