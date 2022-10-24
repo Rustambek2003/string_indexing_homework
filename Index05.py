@@ -18,4 +18,4 @@ def main(s):
     if s[4]=='0' or s[4]=='1' or s[4]=='2' or s[4]=='3' or s[4]=='4' or s[4]=='5' or s[4]=='6' or s[4]=='7' or s[4]=='8' or s[4]=='9':
         ans += 1
     return ans
-print(main("32x3z"))
+print(main("a21d8"))
